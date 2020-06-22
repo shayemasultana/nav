@@ -1,0 +1,61 @@
+.wrapper {
+    max-width: 1170px;
+    background: #eee;
+    margin: 0 auto;
+    height: 80px
+}
+
+.logo {
+    width: 30%;
+    background: pink;
+    float: left;
+    transition: .3s ease;
+}
+
+.logo h2 {
+    margin-left: 7px;  
+    transition: .3s ease-in;
+}
+
+.logo h2:hover {
+    color: white;    
+    cursor: pointer;
+    margin-left: 13px;
+}
+
+.menu {
+    width: 70%;
+    background: lightgreen;
+    display: inline-block;
+}
+
+.menu ul {
+    list-style: none;
+    text-align: right;
+    margin: 23px auto;
+}
+
+.menu ul li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #000000;
+    border: 1px solid transparent;
+    padding: 7px;
+    transition: .3s ease;
+    -webkit-transition: .3s ease;
+    -moz-transition: .3s ease;
+    -ms-transition: .3s ease;
+    -o-transition: .3s ease;
+}
+
+
+.menu ul li a:hover {
+    color: white;
+    border: 1px solid white;
+    padding: 7px;    
+    
+}
